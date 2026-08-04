@@ -1,31 +1,33 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: yuliitezarygml
+repo: Upptime
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Secret Site
-    url: $SECRET_SITE
+  - name: MagnumCinema
+    url: https://magnumcinema.com/
+  - name: MagnumCinema API
+    url: https://magnumcinema.com/api/auth/me
+    expectedStatusCodes:
+      - 200
+      - 401
+      - 403
+  - name: Kino Dev
+    url: https://kino.sinkdev.games/
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  baseUrl: /Upptime
+  logoUrl: https://magnumcinema.com/favicon.ico
+  name: Magnum Status
+  introTitle: "**MagnumCinema** uptime monitor"
+  introMessage: |
+    Public status page for MagnumCinema production and dev environments.
+    Checks run every 5 minutes via [GitHub Actions](https://github.com/yuliitezarygml/Upptime/actions).
   navbar:
     - title: Status
       href: /
+    - title: MagnumCinema
+      href: https://magnumcinema.com
     - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+      href: https://github.com/yuliitezarygml/Upptime
 
-# Upptime also supports notifications, assigning issues, and more
+# Optional: Telegram alerts — add repo secrets NOTIFICATION_TELEGRAM, NOTIFICATION_TELEGRAM_BOT_KEY, NOTIFICATION_TELEGRAM_CHAT_ID
 # See https://upptime.js.org/docs/configuration
