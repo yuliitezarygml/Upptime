@@ -22,18 +22,20 @@
     "url": "https://magnumcinema.com/api/auth/me",
     "icon": "https://icons.duckduckgo.com/ip3/magnumcinema.com.ico",
     "slug": "magnum-cinema-api",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 374,
-    "timeDay": 374,
-    "timeWeek": 374,
-    "timeMonth": 374,
-    "timeYear": 374,
-    "dailyMinutesDown": {}
+    "status": "down",
+    "uptime": "99.99%",
+    "uptimeDay": "99.99%",
+    "uptimeWeek": "99.99%",
+    "uptimeMonth": "99.99%",
+    "uptimeYear": "99.99%",
+    "time": 1394,
+    "timeDay": 1394,
+    "timeWeek": 1394,
+    "timeMonth": 1394,
+    "timeYear": 1394,
+    "dailyMinutesDown": {
+      "2026-08-05": 0
+    }
   },
   {
     "name": "Kino Dev",
