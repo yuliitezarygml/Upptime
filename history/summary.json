@@ -22,19 +22,20 @@
     "url": "https://magnumcinema.com/api/auth/me",
     "icon": "https://icons.duckduckgo.com/ip3/magnumcinema.com.ico",
     "slug": "magnum-cinema-api",
-    "status": "up",
-    "uptime": "95.40%",
-    "uptimeDay": "94.62%",
-    "uptimeWeek": "95.40%",
-    "uptimeMonth": "95.40%",
-    "uptimeYear": "95.40%",
-    "time": 1028,
-    "timeDay": 1463,
-    "timeWeek": 1028,
-    "timeMonth": 1028,
-    "timeYear": 1028,
+    "status": "down",
+    "uptime": "96.42%",
+    "uptimeDay": "94.59%",
+    "uptimeWeek": "96.42%",
+    "uptimeMonth": "96.42%",
+    "uptimeYear": "96.42%",
+    "time": 1280,
+    "timeDay": 1733,
+    "timeWeek": 1280,
+    "timeMonth": 1280,
+    "timeYear": 1280,
     "dailyMinutesDown": {
-      "2026-08-05": 78
+      "2026-08-05": 78,
+      "2026-08-06": 0
     }
   },
   {
